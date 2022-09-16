@@ -1,5 +1,4 @@
-let calculator= {
-  
+let calculator = {
   sum() {
     return this.a + this.b
   },
@@ -11,8 +10,7 @@ let calculator= {
     this.a=a;
     this.b=b;
   },
-
-}
+};
 
 // НЕ УДАЛЯТЬ СТРОКУ, НУЖНА ДЛЯ ПРОВЕРКИ
 window.calculator = calculator; // делает ваш калькулятор доступным глобально
